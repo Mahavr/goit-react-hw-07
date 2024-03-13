@@ -1,0 +1,29 @@
+.item {
+  border: 3px solid #f0efea;
+  width: 300px;
+  display: flex;
+  font-size: 18px;
+  padding: 13px;
+  gap: 20px;
+}
+.itemsWrapper {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.button {
+  background-color: #c0b2b5;
+  border: 3px solid #f0efea;
+  border-radius: 6px;
+  color: #a10115;
+  width: 80px;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: auto;
+}
+.button:hover,
+button:focus {
+  background-color: inherit;
+  color: inherit;
+}
